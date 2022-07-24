@@ -53,7 +53,7 @@ const Home: NextPage = () => {
           <CardHeader
             title={
               <>
-                Let&apos;s see what <code>/api/hello</code> says
+                Let&apos;s see what <code>/api/trpc/hello</code> says
               </>
             }
           />
