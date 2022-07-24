@@ -16,6 +16,11 @@ export const appRouter = trpc
       };
     },
   })
+  .query("pageTwo", {
+    resolve() {
+      return { message: "There will be blood tonight" };
+    },
+  })
   .mutation("multiply", {
     input: z.object({
       first: z.number(),
